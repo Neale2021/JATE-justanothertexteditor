@@ -2,6 +2,7 @@
 import { getDb, putDb } from './database';
 import { header } from './header';
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default class {
   constructor() {
     const localData = localStorage.getItem('content');
@@ -11,6 +12,7 @@ export default class {
       throw new Error('CodeMirror is not loaded');
     }
 
+    // eslint-disable-next-line no-undef
     this.editor = CodeMirror(document.querySelector('#main'), {
       value: '',
       mode: 'javascript',
