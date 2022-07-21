@@ -48,3 +48,5 @@ SO THAT I can reliably retrieve them for later use
 Neale Philippe
 
 ## Links to git hub repository
+
+https://github.com/Neale2021/JATE-justanothertexteditor
